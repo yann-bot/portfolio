@@ -9,7 +9,7 @@ export default function Menu(){
                    <Link href="/about" className="hover:underline text-2xl">About</Link>
                    <Link href="/service" className="hover:underline text-2xl">Our Services</Link>
                    <Link href="/project" className="hover:underline text-2xl">Projects</Link>
-                   <button className=' bg-black text-white text-2xl pt-9 pb-9 pl-14 pr-14 rounded-2xl '><Link href="/contact">Contact Me</Link></button>
+                   <button className=' bg-black text-white text-2xl pt-8 pb-8 pl-12 pr-12 rounded-xl '><Link href="/contact">Contact Me</Link></button>
              </div>
        
     )
