@@ -28,9 +28,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="flex flex-col ">
-           <div className="flex   w-screen   bg-gray-300">
-              <h1>Bergen</h1>
+        <div className="flex flex-col m-10 ">
+           <div className="flex  items-center   ">
+             <div  className="font-serif text-5xl">Bergen</div>
               <Menu />
             </div>
             <div className="flex-1 flex justify-center items-center">{children}</div>
