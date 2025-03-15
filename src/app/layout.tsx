@@ -27,15 +27,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
       >
-        <div className="flex flex-col m-10 ">
-           <div className="flex  items-center   ">
-             <div  className="font-serif text-5xl">Bergen</div>
+        <div className="flex flex-col  ">
+           <div className="flex  items-center justify-center m-10  ">
+             <div  className="font-serif text-5xl">Yann D.O</div>
               <Menu />
             </div>
-            <div className=" flex justify-center items-center h-screen">{children}</div>
-             <div className="flex bg-gray-200 h-100">
+            <div className=" flex justify-center  w-screen  h-fit ">{children}</div>
+             <div className="flex bg-gray-200 h-80">
                 <Footer />
              </div>
           </div>
