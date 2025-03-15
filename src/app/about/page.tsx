@@ -2,12 +2,12 @@
 
 export default function Home() {
   return (
-    <div >
-       <div>
-          <div>
+    <div className="m-12">
+       <div className="flex">
+          <div className="w-1/2 text-5xl font-serif">
              Who We Are? 
           </div>
-          <div>
+          <div className="w-1/2">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
           labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -22,8 +22,14 @@ export default function Home() {
        </div>
 
         {/* image */}
-       <div className="object-cover ">
-           <img src="" alt="" />
+       <div className="flex justify-end">
+         <div className="w-1/Z h-200">
+            <img src="/img/img12.jpg" 
+                  alt="about_us"  
+                  className="w-full h-full obejct-cover"
+            />
+         </div>
+         
        </div>
     
     </div>
