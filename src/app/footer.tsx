@@ -33,10 +33,10 @@ export default function Footer() {
                     </div>
                     
                     <div className="flex flex-col gap-10">
-                        <div className="font-serif text-5xl">
+                        <div className="font-serif text-5xl ">
                            Projects
                         </div>
-                        <div className="flex flex-col mr-30 text-2xl gap-2 ">
+                        <div className="flex flex-col mr-30 text-2xl gap-2 object-cover">
                             <Link href="#" className="underline">Residentiel Design</Link>
                             <Link href="#" className="underline">Commercial Design</Link>
                             <Link href="#" className="underline"> Experiential Design</Link>
