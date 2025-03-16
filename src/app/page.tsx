@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-12 mt-20" >
+    <div className="flex flex-col gap-12 mt-60" >
          <div className="flex flex-col justify-center items-center gap-10  ">
              <div className="text-2xl font-serif mb-10">Our Mission</div>
                  <div className="text-black text-4xl md:text-6xl font-serif leading-tight text-center">
@@ -48,9 +48,6 @@ export default function Home() {
                <button className=' bg-black text-white text-2xl pt-7 pb-7 pl-12 pr-12 rounded-xl '><Link href="/contact">See Project</Link></button>
             </div>
          </div>
-
-         
-         
 
     </div>
   );

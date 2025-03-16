@@ -30,12 +30,12 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
       >
         <div className="flex flex-col  ">
-           <div className="flex  items-center justify-center m-10  ">
-             <div  className="font-serif text-5xl">Yann D.O</div>
+           <div className="flex  items-center justify-center p-8 fixed top-0 left-0 w-full bg-white  z-50 ">
+             <div  className="font-serif text-5xl ">Yann D.O</div>
               <Menu />
             </div>
             <div className=" flex justify-center  w-screen  h-fit ">{children}</div>
-             <div className="flex bg-gray-200 h-80">
+             <div className="flex bg-[#f1f1ef] h-80 ">
                 <Footer />
              </div>
           </div>

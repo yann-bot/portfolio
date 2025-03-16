@@ -12,7 +12,7 @@ export default function Menu() {
     { name: "Projects", path: "/project" },]
 
   return (
-    <div className="flex-1 flex justify-end items-center font-medium gap-5 font-serif">
+    <div className=" flex-1 flex justify-end items-center font-medium gap-5 font-serif ">
       {myLink.map(({ name, path }) => (
         <Link
           key={path}
@@ -23,8 +23,8 @@ export default function Menu() {
         </Link>
       ))}
 
-      <button className="bg-black text-white text-2xl pt-8 pb-8 pl-12 pr-12 rounded-xl">
-        <Link href="/contact">Contact Me</Link>
+      <button className="bg-black text-white text-2xl pt-8 pb-8 pl-14 pr-14 rounded-xl">
+        <Link href="/contact">Contact Us</Link>
       </button>
     </div>
   );

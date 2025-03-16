@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Footer() {
         return (
-            <div className="flex w-full m-10 ">
+            <div className="flex w-full m-10 font-serif object-cover ">
                <div className="w-1/2 flex flex-col gap-10 ">
                     <div className="font-serif text-5xl">
                        Bergen
