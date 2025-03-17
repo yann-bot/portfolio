@@ -3,10 +3,10 @@ import { FaFacebookF,FaInstagram, FaTwitter } from "react-icons/fa";
 
 
 
-export default function About() {
+export default function Contact() {
   return (
-    <div className="mt-80 flex flex-col mb-90 p-9 ">
-       <div className="flex  gap-60">
+    <div className="mt-80 flex flex-col mb-90 p-9  bg-black text-white text-2xl p-0">
+       <div className="flex  gap-50">
           <div className=" flex flex-col w-1/2  font-serif mt-4 gap-10 ">
             <div className="text-5xl">Contact Us</div>
             <div className="text-2xl font-serif">If you have any questions or comments, please contact us via email or phone, or send us a message using the contact form.</div>
@@ -27,7 +27,7 @@ export default function About() {
              
            </div>
 
-          <div className="w-2/3 flex flex-col gap-4 text-2xl text-gray-500 font-serif  border-red-500 p-3  ">
+          <div className="w-1/2 flex flex-col gap-4 text-2xl text-gray-500 font-serif  border-red-500 p-3  ">
              <form action="" className="flex flex-col   gap-5 p-2">
               <div className="flex flex-col gap-3">
                 <div>Name (required)</div>
