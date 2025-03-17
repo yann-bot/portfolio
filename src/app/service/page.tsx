@@ -7,33 +7,30 @@ export default function Home() {
     <div className="m-10 mt-70 flex flex-col gap-25">
        <div className="flex gap-100" >
           <div className="w-1/2  font-serif flex flex-col gap-10">
-            <div className="text-6xl">Our Services</div> 
+            <div className="text-6xl">My Services</div> 
             <div className="font-serif text-2xl leading-10">
-                   It all begins with an idea. Maybe
-                   you want to launch a business. Maybe you want to turn
-                    a hobby into something more. Or maybe you have a creative 
-                    project to share with the world. Whatever it is, the way you 
-                    tell your story online can make all the difference.
+            It all starts with a vision. Maybe you want to build a sleek, modern website. Maybe you want to craft a seamless user experience that stands out. Or maybe you have a bold idea to transform digital interactions. Whatever it is, the way you design and develop your project can shape its success.
+                   
             </div>
           </div>
 
           <div className="w-1/2 flex flex-col gap-50 text-2xl font-sans">
             <div className="flex flex-col gap-12">
-                <div className="text-3xl font-serif">Dream It.</div>
+                <div className="text-3xl font-serif">Web development .</div>
                 <div className="font-serif leading-10">
-                It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+                   It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
                </div>
              </div>   
 
               <div className="flex flex-col gap-10">
-                <div className="text-3xl font-serif">Build It.</div>
+                <div className="text-3xl font-serif">Mobile app development.</div>
                 <div className=" font-serif leading-10">
                 It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
                </div>
              </div>   
  
               <div className="flex flex-col gap-7">
-                <div className="text-3xl font-serif">Grow It.</div>
+                <div className="text-3xl font-serif">UI/UX design .</div>
                 <div className=" font-serif leading-10">
                 It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
                </div>

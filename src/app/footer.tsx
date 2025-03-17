@@ -7,11 +7,11 @@ export default function Footer() {
             <div className="flex w-full m-10 font-serif object-cover ">
                <div className="w-1/2 flex flex-col gap-10 ">
                     <div className="font-serif text-5xl">
-                       Bergen
+                       Yann D.O
                     </div>
                     <div className="text-2xl">
-                        123 Demo Street<br/>
-                        Brooklyn, NY 12345
+                        221B Baker Street<br/>
+                        London, UK
                     </div>
                     <div className="text-2xl" >
                     Made with  <Link href="#" className="underline">Squarespace</Link>
@@ -26,8 +26,8 @@ export default function Footer() {
                         </div>
                         <div className="flex flex-col gap-2 text-2xl">
                             <Link href="/" className="underline">Work</Link>
-                            <Link href="/about" className="underline">Who We Are</Link>
-                            <Link href="/contact" className="underline"> Contact Us</Link>
+                            <Link href="/about" className="underline">Who I am</Link>
+                            <Link href="/contact" className="underline"> Contact Me</Link>
                         </div>
                 
                     </div>
@@ -37,9 +37,9 @@ export default function Footer() {
                            Projects
                         </div>
                         <div className="flex flex-col mr-30 text-2xl gap-2 object-cover">
-                            <Link href="#" className="underline">Residentiel Design</Link>
-                            <Link href="#" className="underline">Commercial Design</Link>
-                            <Link href="#" className="underline"> Experiential Design</Link>
+                            <Link href="#" className="underline">Web Projects</Link>
+                            <Link href="#" className="underline">Mobile Projects</Link>
+                            <Link href="#" className="underline"> UX/UI Projects</Link>
                            
                        </div>
 

@@ -11,7 +11,7 @@ export default function Menu() {
   const myLink = [
     { name: "Work", path: "/" },
     { name: "About", path: "/about" },
-    { name: "Our Services", path: "/service" },
+    { name: "My Services", path: "/service" },
     { name: "Projects", path: "/project", hasDropdown: true },
   ];
 
@@ -74,7 +74,7 @@ export default function Menu() {
       ))}
       
       <button className="bg-black text-white text-2xl pt-8 pb-8 pl-14 pr-14 rounded-xl">
-        <Link href="/contact">Contact Us</Link>
+        <Link href="/contact">Contact Me</Link>
       </button>
     </div>
   );
