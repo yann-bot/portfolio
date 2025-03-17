@@ -11,7 +11,7 @@ export default function Menu() {
   const myLink = [
     { name: "Work", path: "/" },
     { name: "About", path: "/about" },
-    { name: "My Services", path: "/service" },
+    { name: "My Services", path: "#" },
     { name: "Projects", path: "/project", hasDropdown: true },
   ];
 
