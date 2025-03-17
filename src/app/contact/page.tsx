@@ -5,7 +5,7 @@ import { FaFacebookF,FaInstagram, FaTwitter } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <div className="mt-80 flex flex-col mb-90  bg-black text-white text-2xl p-0">
+    <div className="mt-80 flex flex-col mb-90 p-9 ">
        <div className="flex  gap-50">
           <div className=" flex flex-col w-1/2  font-serif mt-4 gap-10 ">
             <div className="text-5xl">Contact Us</div>
