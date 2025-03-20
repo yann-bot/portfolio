@@ -5,14 +5,14 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 export default function Menu() {
-  const pathname = usePathname(); // Récupère la page actuelle
-  const [isOpen, setIsOpen] = useState(false); // État du sous-menu
-
+  const pathname = usePathname(); 
+  const [isOpen, setIsOpen] = useState(false); 
+  
   const myLink = [
     { name: "Work", path: "/" },
     { name: "About", path: "/about" },
-    { name: "My Services", path: "#" },
-    { name: "Projects", path: "/project", hasDropdown: true },
+    { name: "My Services", path: "/service"},
+    { name: "Projects", path: "/new-folder", hasDropdown: true },
   ];
 
   const subLinks = [
@@ -22,35 +22,38 @@ export default function Menu() {
   ];
 
   return (
-    <div className="flex-1 flex justify-end items-center font-medium gap-5 font-serif relative">
-      {myLink.map(({ name, path, hasDropdown }) => (
+    <div className="lg:flex-1 lg:flex lg:justify-end lg:items-center lg:font-medium lg:gap-5 lg:font-serif lg:relative">
+      {myLink.map((item) => (
         <div
-          key={path}
+          key={item.path}
           className="relative"
-          onMouseEnter={() => hasDropdown && setIsOpen(true)}
-          onMouseLeave={() => hasDropdown && setIsOpen(false)}
+          onMouseEnter={() => item.hasDropdown && setIsOpen(true)}
+          onMouseLeave={() => item.hasDropdown && setIsOpen(false)}
+        
         >
-          {hasDropdown ? (
+          {item.hasDropdown ? (
             <>
-              {/* Lien avec sous-menu */}
+             
               <Link
-                href={path}
-                className={`text-2xl transition-all duration-300 ${
-                  pathname === path && "underline"
+                href={item.path}
+                className={`lg:text-2xl lg:transition-all lg:duration-300 ${
+                  pathname === item.path && "underline"
                 }`}
+                onClick={(e)=> e.preventDefault()}
               >
-                {name}
+                {item.name}
               </Link>
 
               {/* Sous-menu (Affiché au survol) */}
               {isOpen && (
-                <div className="absolute right-0 mt-1 w-48 bg-white  rounded-md shadow-lg">
+                <div className="lg:absolute lg:right-0 lg:mt-1 lg:w-48 lg:bg-white  lg:rounded-md lg:shadow-lg]">
                   <ul className="py-2">
                     {subLinks.map(({ name, path }) => (
                       <li key={path}>
                         <Link
                           href={path}
-                          className="block px-4 py-1 hover:bg-gray-100 text-2xl font-serif"
+                          className="lg:text-2xl lg:transition-all lg:duration-300] 
+                         "
                         >
                           {name}
                         </Link>
@@ -62,18 +65,18 @@ export default function Menu() {
             </>
           ) : (
             <Link
-              href={path}
-              className={`text-2xl transition-all duration-300 ${
-                pathname === path && "underline"
+              href={item.path}
+              className={`lg:text-2xl lg:transition-all lg:duration-300 ${
+              pathname === item.path && "underline"
               }`}
             >
-              {name}
+              {item.name}
             </Link>
           )}
         </div>
       ))}
       
-      <button className="bg-black text-white text-2xl pt-8 pb-8 pl-14 pr-14 rounded-xl">
+      <button className="lg:bg-black lg:text-white lg:text-2xl lg:pt-8 lg:pb-8 lg:pl-14 lg:pr-14 lg:rounded-xl">
         <Link href="/contact">Contact Me</Link>
       </button>
     </div>
