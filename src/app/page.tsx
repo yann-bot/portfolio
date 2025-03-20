@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
                        Creating <br/> simple,  effective<br/> solutions tailored to the essential.
                </div>   
          </div>
-
+         {/* Fist section */}
          <div className="  flex flex-col w-screen ">
             <div className='  h-200 m-10'>
                    <img src="/img/img01.jpg"   alt=""  className='w-full h-full object-cover'  />    
@@ -22,9 +23,10 @@ export default function Home() {
                <button className=' bg-black text-white text-2xl pt-7 pb-7 pl-12 pr-12 rounded-xl '><Link href="/contact">See Project</Link></button>
             </div>
          </div>
-         
+         {/* Second section */}
          <div className="  flex flex-col w-screen ">
             <div className='  h-200 m-10'>
+                   
                    <img src="/img/img07.jpg"   alt=""  className='w-full h-full object-cover'  />    
             </div>
             <div className='flex items-center  m-10  justify-between p-4 pl-0'>
@@ -35,7 +37,7 @@ export default function Home() {
                <button className=' bg-black text-white text-2xl pt-7 pb-7 pl-12 pr-12 rounded-xl '><Link href="/contact">See Project</Link></button>
             </div>
          </div>
-
+         {/* Third section */}
          <div className="  flex flex-col w-screen ">
             <div className='  h-200 m-10'>
                    <img src="/img/img11.jpeg"   alt=""  className='w-full h-full object-cover'  />    
