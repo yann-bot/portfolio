@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export {sansSerif, geistSans, geistMono};
+
 
 export const metadata: Metadata = {
   title: "Yann Dubois OUAFETE",
