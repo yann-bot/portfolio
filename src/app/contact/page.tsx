@@ -69,7 +69,7 @@ export default function Contact() {
    const validate = () => {
        let valid = true;
 
-       let newErrors = {
+       const newErrors = {
            firstName: '',
            lastName: '',
            email: '',
