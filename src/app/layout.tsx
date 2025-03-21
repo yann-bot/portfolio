@@ -29,12 +29,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="overflow-x-hidden"> 
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
       >
         <div className="flex flex-col  ">
-           <div className="flex  items-center justify-center p-8 fixed top-0 left-0 w-full bg-white  z-50 ">
+           <div className="flex  items-center  p-8 fixed top-0 left-0 w-full bg-white  z-50 ">
              <div  className="font-serif text-5xl ">Yann D.O</div>
               <Menu />
             </div>

@@ -1,5 +1,7 @@
 "use client";
 
+import { HiOutlineBars2 } from "react-icons/hi2";
+
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -22,7 +24,8 @@ export default function Menu() {
   ];
 
   return (
-    <div className="lg:flex-1 lg:flex lg:justify-end lg:items-center lg:font-medium lg:gap-5 lg:font-serif lg:relative">
+    <div className=" flex-1">
+        <div className=" hidden lg:flex lg:justify-end lg:items-center lg:font-medium lg:gap-5 lg:font-serif lg:relative">
       {myLink.map((item) => (
         <div
           key={item.path}
@@ -80,5 +83,10 @@ export default function Menu() {
         <Link href="/contact">Contact Me</Link>
       </button>
     </div>
+    <div className="lg:hidden flex justify-end  ">
+        <Link href="#"><HiOutlineBars2 className="text-5xl  "  /></Link> 
+    </div>
+  </div>
+   
   );
 }

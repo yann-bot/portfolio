@@ -20,7 +20,7 @@ export default function Home() {
                   <div className='font-serif text-5xl'>Web Projects</div>
                   <div className='font-serif text-2xl'>Apartments, homes and vacation properties.</div>
                </div>
-               <button className=' bg-black text-white text-2xl pt-7 pb-7 pl-12 pr-12 rounded-xl '><Link href="/contact">See Project</Link></button>
+               <button className=' bg-black text-white text-2xl pt-7 pb-7 pl-12 pr-12 rounded-xl '><Link href="/web_projects">See Project</Link></button>
             </div>
          </div>
          {/* Second section */}
@@ -34,7 +34,7 @@ export default function Home() {
                   <div className='font-serif text-5xl'>Mobile Projects</div>
                   <div className='font-serif text-2xl'>Creative and inviting retail and hospitality environments.</div>
                </div>
-               <button className=' bg-black text-white text-2xl pt-7 pb-7 pl-12 pr-12 rounded-xl '><Link href="/contact">See Project</Link></button>
+               <button className=' bg-black text-white text-2xl pt-7 pb-7 pl-12 pr-12 rounded-xl '><Link href="/mobile_projects">See Project</Link></button>
             </div>
          </div>
          {/* Third section */}
@@ -47,7 +47,7 @@ export default function Home() {
                   <div className='font-serif text-5xl'>UI/UX Projects</div>
                   <div className='font-serif text-2xl'>Temporary and permanent branded spaces.</div>
                </div>
-               <button className=' bg-black text-white text-2xl pt-7 pb-7 pl-12 pr-12 rounded-xl '><Link href="/contact">See Project</Link></button>
+               <button className=' bg-black text-white text-2xl pt-7 pb-7 pl-12 pr-12 rounded-xl '><Link href="/design_projects">See Project</Link></button>
             </div>
          </div>
 
