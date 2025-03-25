@@ -10,44 +10,46 @@ export default function Home() {
                        Creating <br/> simple,  effective<br/> solutions tailored to the essential.
                </div>   
          </div>
-         {/* Fist section */}
+
+         {/* First section */}
          <div className="  flex flex-col w-screen ">
-            <div className='  h-200 m-10'>
-                   <img src="/img/img01.jpg"   alt=""  className='w-full h-full object-cover'  />    
+            <div className=" h-200 m-10 mb-2">
+                   <img src="/img/img01.jpg"   alt=""  className="w-full h-full object-cover"  />    
             </div>
-            <div className='flex items-center  m-10  justify-between p-4 pl-0'>
-               <div className='flex flex-col gap-12 pt-10 pb-10 pr-10'>
-                  <div className='font-serif text-5xl'>Web Projects</div>
-                  <div className='font-serif text-2xl'>Apartments, homes and vacation properties.</div>
+            <div className="flex flex-col  items-end md:items-center md:flex-row    m-10 mt-2 justify-between p-4 pt-0 pl-0">
+               <div className="flex flex-col w-full  gap-5 md:gap-12 pt-10 pb-10 pr-10">
+                  <div className="font-serif text-2xl  md:text-5xl">Web Projects</div>
+                  <div className="font-serif text-xl md:text-2xl">Apartments, homes and vacation properties.</div>
                </div>
-               <button className=' bg-black text-white text-2xl pt-7 pb-7 pl-12 pr-12 rounded-xl '><Link href="/web_projects">See Project</Link></button>
+               <button className="bg-black text-white px-9 py-6 rounded-md hover:bg-gray-900 transition whitespace-nowrap"> <Link href="/design_projects">See Project</Link></button>
             </div>
          </div>
+
          {/* Second section */}
-         <div className="  flex flex-col w-screen ">
-            <div className='  h-200 m-10'>
-                   
-                   <img src="/img/img07.jpg"   alt=""  className='w-full h-full object-cover'  />    
+         <div className="flex flex-col w-screen ">
+            <div className="h-200 m-10 mb-2">
+                   <img src="/img/img07.jpg"   alt=""  className="w-full h-full object-cover"  />    
             </div>
-            <div className='flex items-center  m-10  justify-between p-4 pl-0'>
-               <div className='flex flex-col gap-12 pt-10 pb-10 pr-10'>
-                  <div className='font-serif text-5xl'>Mobile Projects</div>
-                  <div className='font-serif text-2xl'>Creative and inviting retail and hospitality environments.</div>
+            <div className="flex flex-col  items-end md:items-center md:flex-row    m-10 mt-2 justify-between p-4 pt-0 pl-0">
+               <div className="flex flex-col w-full  gap-5 md:gap-12 pt-10 pb-10 pr-10">
+                  <div className="font-serif text-2xl  md:text-5xl">Mobile Projects</div>
+                  <div className="font-serif text-xl md:text-2xl">Apartments, homes and vacation properties.</div>
                </div>
-               <button className=' bg-black text-white text-2xl pt-7 pb-7 pl-12 pr-12 rounded-xl '><Link href="/mobile_projects">See Project</Link></button>
+               <button className="bg-black text-white px-9 py-6 rounded-md hover:bg-gray-900 transition whitespace-nowrap"> <Link href="/design_projects">See Project</Link></button>
             </div>
          </div>
+
          {/* Third section */}
          <div className="  flex flex-col w-screen ">
-            <div className='  h-200 m-10'>
-                   <img src="/img/img11.jpeg"   alt=""  className='w-full h-full object-cover'  />    
+            <div className=" h-200 m-10 mb-2">
+                   <img src="/img/img11.jpg"   alt=""  className="w-full h-full object-cover"  />    
             </div>
-            <div className='flex items-center  m-10  justify-between p-4 pl-0'>
-               <div className='flex flex-col gap-12 pt-10 pb-10 pr-10'>
-                  <div className='font-serif text-5xl'>UI/UX Projects</div>
-                  <div className='font-serif text-2xl'>Temporary and permanent branded spaces.</div>
+            <div className="flex flex-col  items-end md:items-center md:flex-row    m-10 mt-2 justify-between p-4 pt-0 pl-0">
+               <div className="flex flex-col w-full  gap-5 md:gap-12 pt-10 pb-10 pr-10">
+                  <div className="font-serif text-2xl  md:text-5xl">UI/UX Projects</div>
+                  <div className="font-serif text-xl md:text-2xl">Apartments, homes and vacation properties.</div>
                </div>
-               <button className=' bg-black text-white text-2xl pt-7 pb-7 pl-12 pr-12 rounded-xl '><Link href="/design_projects">See Project</Link></button>
+               <button className="bg-black text-white px-9 py-6 rounded-md hover:bg-gray-900 transition whitespace-nowrap"> <Link href="/design_projects">See Project</Link></button>
             </div>
          </div>
 
